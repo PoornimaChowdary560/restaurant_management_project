@@ -1,0 +1,24 @@
+{% load static %}
+{% load tz %}
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>{% block content %}Restuarant {% endblock %}</title>
+        <style>
+            footer{
+               background-color:#eee;
+               text-align:center;
+               padding:15px;
+               margin-top:20px;
+               font-size:0.9rem;
+               color:#555;
+            }
+        </style>
+    </head>
+    <body>
+        {% block content%} {% endblock %}
+        <footer>
+            <p>&copy;{% now "Y"%}{{Restuarant_Name}}. All Rights Reserverd</p>
+        </footer>
+    </body>
+</html>
