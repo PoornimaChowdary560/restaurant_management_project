@@ -18,7 +18,7 @@
     <body>
         {% block content%} {% endblock %}
         <footer>
-            <p>&copy;{% now|date: "Y"%}{{Restuarant_Name}}. All Rights Reserverd</p>
+            <p>&copy;{{ now|date: "Y"}}{{Restuarant_Name}}. All Rights Reserverd</p>
             <p>Opening Hours: Mon-Fri: 11am - 9pm | Sat-Sun: 10am-10pm</p>
         </footer>
     </body>
