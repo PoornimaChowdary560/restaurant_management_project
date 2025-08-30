@@ -27,7 +27,7 @@ DEBUG = True
 
 ALLOWED_HOSTS = ['*']
 
-
+RESTAURANT_NAME='Chowdarys restuarant'
 # Application definition
 
 INSTALLED_APPS = [
